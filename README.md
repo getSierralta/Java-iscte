@@ -20,54 +20,54 @@
 
 #### Variables, data types, operators:
 
-* [Exercises](Java-iscte/src/A_2DataTypes/)
+* [Exercises](src/A_2DataTypes/)
 
 #### Flux control and Scanner:
 
 
-* [Exercises](Java-iscte/src/A_3FluxControl/)
+* [Exercises](src/A_3FluxControl/)
 
 
 #### Loops:
 
-* [Exercises](Java-iscte/src/A_4Loops/)
+* [Exercises](src/A_4Loops/)
 
 #### Arrays:
 
-* [Exercises](Java-iscte/src/A_5Arrays/)
+* [Exercises](src/A_5Arrays/)
 
 #### Objects:
 
-* [Exercises](Java-iscte/src/A_6Objects/) 
+* [Exercises](src/A_6Objects/) 
 
 
 #### Inheritance and polymorphism:
 
-* [Exercises](Java-iscte/src/A_7InheritageAndPolymorphism/)
+* [Exercises](src/A_7InheritageAndPolymorphism/)
 
 #### Abstract methods and classes:
 
-* [Exercises](Java-iscte/src/A_8AbstractMethodsAndClasses/)
+* [Exercises](src/A_8AbstractMethodsAndClasses/)
 
 #### Exercises:
 
-* [Exercises](Java-iscte/src/A_9Exercises/)
+* [Exercises](src/A_9Exercises/)
 
 
 #### Interfaces, comparable and comparator:
 
-* [Exercises](Java-iscte/src/A_10InterfacesComparableAndComparator/)
+* [Exercises](src/A_10InterfacesComparableAndComparator/)
 
 #### Java Collectors Framework:
 
-* [Exercises](Java-iscte/src/A_11JavaCollectorsFramework/)
+* [Exercises](src/A_11JavaCollectorsFramework/)
 
 #### Enums and Exception:
-* [Exercises](Java-iscte/src/A_12EnumsAndException/)
+* [Exercises](src/A_12EnumsAndException/)
 
 #### Reading and Writing Files:
 
-* [Exercises](Java-iscte/src/A_14ReadingAndWritingFiles/)
+* [Exercises](src/A_14ReadingAndWritingFiles/)
 
 ## Module B Data-Base
 
