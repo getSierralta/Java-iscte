@@ -9,61 +9,80 @@
 
 # Table of contents 
 
-## Module 1 
 
+## Module A Java Programming
 
-#### Introduccion to the languague:
+* [Study Material](slides/A-Slides)
 
-* [Hello World!](src/aula1IntroduccionALenguaguem/HelloWorld.java)
+#### Introduction to the language:
+
+* [Hello World!](src/A_1IntroducctionToJava/HelloWorld.java)
 
 #### Variables, data types, operators:
 
-* [Excercises](Java-iscte/src/aula2VariaveisTipoDeDados/)
+* [Exercises](Java-iscte/src/A_2DataTypes/)
 
 #### Flux control and Scanner:
 
 
-* [Exercises](Java-iscte/src/aula3FluxoDeControlo/)
+* [Exercises](Java-iscte/src/A_3FluxControl/)
 
 
 #### Loops:
 
-* [Exercises](Java-iscte/src/aula4Loops/)
+* [Exercises](Java-iscte/src/A_4Loops/)
 
 #### Arrays:
 
-* [Exercises](Java-iscte/src/aula5Vetores/)
+* [Exercises](Java-iscte/src/A_5Arrays/)
 
 #### Objects:
 
-* [Exercises](Java-iscte/src/aula6Objetos/) 
+* [Exercises](Java-iscte/src/A_6Objects/) 
 
 
-#### Inheritage and polymorphism:
+#### Inheritance and polymorphism:
 
-* [Exercises](Java-iscte/src/aula7HerencaPolimorfismo/)
+* [Exercises](Java-iscte/src/A_7InheritageAndPolymorphism/)
 
 #### Abstract methods and classes:
 
-* [Excercises](Java-iscte/src/aula8ClasseAbstracta/)
+* [Exercises](Java-iscte/src/A_8AbstractMethodsAndClasses/)
 
 #### Exercises:
 
-* [Excercises](Java-iscte/src/aula9Exercicios/)
+* [Exercises](Java-iscte/src/A_9Exercises/)
 
 
 #### Interfaces, comparable and comparator:
 
-* [Excercises](Java-iscte/src/aula10InterfacesComparadores/)
+* [Exercises](Java-iscte/src/A_10InterfacesComparableAndComparator/)
 
 #### Java Collectors Framework:
 
-* [Excercises](Java-iscte/src/aula11JavaCollectors/)
+* [Exercises](Java-iscte/src/A_11JavaCollectorsFramework/)
 
 #### Enums and Exception:
-* [Exercises](Java-iscte/src/aula12EnumeradosExcecoes/)
+* [Exercises](Java-iscte/src/A_12EnumsAndException/)
 
 #### Reading and Writing Files:
 
-* [Exercises](Java-iscte/src/aula14Ficheiros/)
+* [Exercises](Java-iscte/src/A_14ReadingAndWritingFiles/)
+
+## Module B Data-Base
+
+* [Study Material](slides/B-Slides)
+
+## Module C Software Engineering 
+
+* [Study Material](slides/C-Slides)
+
+## Module D Concurrent Programming
+
+* [Study Material](slides/D-Slides)
+
+#### Threads
+
+#### Synchronization and coordination:
+
 
