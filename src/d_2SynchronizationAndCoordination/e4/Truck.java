@@ -1,10 +1,11 @@
 package d_2SynchronizationAndCoordination.e4;
 
+
 import java.util.logging.Logger;
 
 public class Truck extends Thread {
     private final Door door;
-    private final int[] packages = new int[5];
+    final int[] packages = new int[5];
     private final int id;
 
     public Truck(Door door, int id) {
@@ -13,7 +14,7 @@ public class Truck extends Thread {
     }
 
     private boolean printMsg() {
-        StringBuilder msg = new StringBuilder("Truck "+id+" filled with : ");
+        StringBuilder msg = new StringBuilder("Truck " + id + " filled with : ");
         int trigger = 0;
         for (int i : packages) {
             msg.append(i).append(" ");
@@ -33,16 +34,15 @@ public class Truck extends Thread {
     @Override
     public void run() {
         do {
-            door.start(id);
-            for (int i = 0; i < 5; i++) {
-                try {
-                    packages[i] = door.fillTruck(id);
-                    sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+            try {
+               for (int i = 0; i < 5; i++) {
+                    packages[i] = door.fillTruck();
                 }
+                //door.lockedFillTruck(this);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-            door.leave();
+
         } while (!printMsg());
     }
 
