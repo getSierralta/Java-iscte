@@ -7,6 +7,7 @@ public class Truck extends Thread {
     private final Door door;
     final int[] packages = new int[5];
     private final int id;
+    private final Logger logger = Logger.getLogger(currentThread().getName());
 
     public Truck(Door door, int id) {
         this.door = door;
@@ -17,16 +18,15 @@ public class Truck extends Thread {
         StringBuilder msg = new StringBuilder("Truck " + id + " filled with : ");
         int trigger = 0;
         for (int i : packages) {
-            msg.append(i).append(" ");
+            msg.append(i).append(" | ");
             if (i == 0) {
                 trigger++;
-                if (trigger > 1) {
+                if (trigger > 3) {
                     return true;
                 }
             }
         }
         String message = String.valueOf(msg);
-        Logger logger = Logger.getLogger(currentThread().getName());
         logger.info(message);
         return false;
     }
@@ -35,12 +35,9 @@ public class Truck extends Thread {
     public void run() {
         do {
             try {
-               for (int i = 0; i < 5; i++) {
-                    packages[i] = door.fillTruck();
-                }
-                //door.lockedFillTruck(this);
+                door.lockedFillTruck(this);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                return;
             }
 
         } while (!printMsg());

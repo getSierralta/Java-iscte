@@ -1,7 +1,5 @@
 package d_2SynchronizationAndCoordination.e4;
 
-import java.util.logging.Logger;
-
 public class Armazen extends Thread {
 
     private final Door door;
@@ -12,16 +10,13 @@ public class Armazen extends Thread {
 
     @Override
     public void run() {
-        Logger logger = Logger.getLogger(currentThread().getName());
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 51; i++) {
             door.put(i);
             try {
                 sleep(1000);
             } catch (InterruptedException e) {
                return;
             }
-            String msg = i + " package put";
-            logger.info(msg);
         }
 
     }
