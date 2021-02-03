@@ -16,58 +16,58 @@
 
 #### Introduction to the language:
 
-* [Hello World!](src/A_1IntroducctionToJava/HelloWorld.java)
+* [Hello World!](src/a_1IntroducctionToJava/HelloWorld.java)
 
 #### Variables, data types, operators:
 
-* [Exercises](src/A_2DataTypes/)
+* [Exercises](src/a_2DataTypes/)
 
 #### Flux control and Scanner:
 
 
-* [Exercises](src/A_3FluxControl/)
+* [Exercises](src/a_3FluxControl/)
 
 
 #### Loops:
 
-* [Exercises](src/A_4Loops/)
+* [Exercises](src/a_4Loops/)
 
 #### Arrays:
 
-* [Exercises](src/A_5Arrays/)
+* [Exercises](src/a_5Arrays/)
 
 #### Objects:
 
-* [Exercises](src/A_6Objects/) 
+* [Exercises](src/a_6Objects/) 
 
 
 #### Inheritance and polymorphism:
 
-* [Exercises](src/A_7InheritageAndPolymorphism/)
+* [Exercises](src/a_7InheritageAndPolymorphism/)
 
 #### Abstract methods and classes:
 
-* [Exercises](src/A_8AbstractMethodsAndClasses/)
+* [Exercises](src/a_8AbstractMethodsAndClasses/)
 
 #### Exercises:
 
-* [Exercises](src/A_9Exercises/)
+* [Exercises](src/a_9Exercises/)
 
 
 #### Interfaces, comparable and comparator:
 
-* [Exercises](src/A_10InterfacesComparableAndComparator/)
+* [Exercises](src/a_10InterfacesComparableAndComparator/)
 
 #### Java Collectors Framework:
 
-* [Exercises](src/A_11JavaCollectorsFramework/)
+* [Exercises](src/a_11JavaCollectorsFramework/)
 
 #### Enums and Exception:
-* [Exercises](src/A_12EnumsAndException/)
+* [Exercises](src/a_12EnumsAndException/)
 
 #### Reading and Writing Files:
 
-* [Exercises](src/A_14ReadingAndWritingFiles/)
+* [Exercises](src/a_14ReadingAndWritingFiles/)
 
 ## Module B Data-Base
 
@@ -79,14 +79,24 @@
 
 ## Module D Concurrent Programming
 
-* [Study Material](slides/D-Slides)
+* [Study Material](slides/D-Slides/)
 
 #### Threads
 
 
-* [Exercises](src/D_1Threads/)
+* [Exercises](src/d_1Threads/)
 
 
 #### Synchronization and coordination:
+
+* [Exercises](src/d_2SynchronizationAndCoordination/)
+
+#### Locks And Barriers:
+
+* [Exercises](src/d_3LocksAndBarriers/)
+
+#### Thread Pools:
+
+* [Exercises](src/d_4ThreadPools/)
 
 
