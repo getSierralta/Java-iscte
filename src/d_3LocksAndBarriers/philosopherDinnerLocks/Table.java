@@ -21,7 +21,7 @@ public class Table {
     public void takeChopStick(Philosopher philosopher) throws InterruptedException {
         try {
             lock.lock();
-            while (chopSticks.size() < 5) {
+            while (chopSticks.size() < 4) {
                 condition.await();
             }
             for (ChopStick chop : chopSticks) {

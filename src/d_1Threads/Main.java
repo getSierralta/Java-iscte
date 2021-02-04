@@ -39,7 +39,7 @@ public class Main {
                     lastCharacter = character;
                 }
             }
-            String msg = lastCharacter + ": " + lastCount + " times.";
+            String msg = currentThread().getName()+" "+lastCharacter + ": " + lastCount + " times.";
             logger.info(msg);
         }
     }
