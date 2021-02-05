@@ -1,6 +1,6 @@
 package d_3LocksAndBarriers.transportadora;
 
-import java.util.concurrent.BrokenBarrierException;
+import java.util.Random;
 import java.util.logging.Logger;
 
 import static java.lang.Thread.sleep;
@@ -31,8 +31,8 @@ public class Client implements Runnable{
         while (true){
             try {
                 transportadora.buy(this);
-                sleep(1000);
-            } catch (InterruptedException | BrokenBarrierException e) {
+                sleep(new Random().nextInt(12000));
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
