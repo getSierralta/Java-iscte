@@ -99,4 +99,8 @@
 
 * [Exercises](src/d_4ThreadPools/)
 
+#### Exercises:
+
+* [Exercises](src/d_5Exercises/)
+
 

@@ -1,4 +1,4 @@
-package d_5Excercises.e2;
+package d_5Exercises.e2;
 
 public class Balanza {
 

@@ -1,4 +1,4 @@
-package d_5Excercises;
+package d_5Exercises;
 
 public class Barreira {
     private static final int MAX = 3;

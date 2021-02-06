@@ -1,4 +1,4 @@
-package d_5Excercises.e1;
+package d_5Exercises.e1;
 
 import java.util.LinkedList;
 

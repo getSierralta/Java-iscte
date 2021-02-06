@@ -1,4 +1,4 @@
-package d_5Excercises.e3;
+package d_5Exercises.e3;
 
 import java.util.LinkedList;
 import java.util.concurrent.Semaphore;
